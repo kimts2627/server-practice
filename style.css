@@ -85,12 +85,22 @@ body {
     font-style: initial;
     color: white;
 }
+main {
+    position: relative;
+    height: 450px;
+    width: 460px;
+    top: -73px;
+}
 #main {
     position: relative;
     border: 1px;
     background-color: rgb(175, 216, 255);
     height: 450px;
+    width: 460px;
     z-index: 5;
+    margin: 0px;
+    list-style: none;
+    overflow-y: auto;
 }
 footer {
     position: relative;
@@ -127,4 +137,29 @@ footer input {
     top: 10px;
     left: 10px;
     outline: none;
+}
+.myBox {
+    left: -20px;
+    position: relative;
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: content-box;
+    width: fit-content;
+    max-width: 200px;
+    text-align: right;
+    margin-left: auto;
+}
+.yourBox {
+    left: -20px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: content-box;
+    width: fit-content;
+    max-width: 200px;
+    text-align: left;
 }
