@@ -1,0 +1,130 @@
+
+body {
+    border: 5px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#header {
+    position: relative;
+    border: 5px;
+    border-color: rgb(0, 0, 0);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 10px 10px 100px lightgrey;
+    z-index: 2;
+}
+#pic {
+    position: relative;
+    float:left;
+    top: -25px;
+    left: -170px;
+    padding: 0px;
+}
+#pic img {
+    position: relative;
+    width: 200px;
+    outline: none;
+}
+#roomname {
+    position: relative;
+    float:left;
+    right: 210px;
+    top: 35px;
+    color: rgb(65, 65, 65);
+    font-weight: 500;
+    font-size: 16px;
+}
+#mac {
+    position: relative;
+    display: block;
+    float: left;
+    list-style: none;
+    left: -30px;
+    top: -20px;
+}
+#red {
+    display: inline-block;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border: 5px;
+    border-radius: 7px;
+    background-color: rgb(252, 92, 0); 
+    z-index: 1;
+}
+#yellow {
+    display: inline-block;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border: 5px;
+    border-radius: 7px;
+    background-color: rgb(251, 255, 0); 
+    z-index: 1;
+    margin-left: 5px;
+}
+#green {
+    display: inline-block;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border: 5px;
+    border-radius: 7px;
+    background-color: rgb(0, 204, 51); 
+    z-index: 1;
+    margin-left: 5px;
+}
+#header h1 {
+    position: relative;
+    font-style: initial;
+    color: white;
+}
+#main {
+    position: relative;
+    border: 1px;
+    background-color: rgb(175, 216, 255);
+    height: 450px;
+    z-index: 5;
+}
+footer {
+    position: relative;
+    border: 1px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    height: 130px;
+    box-shadow: 10px 10px 80px lightgrey;
+    z-index: 1;
+}
+footer button {
+    position: relative;
+    display: block;
+    float: right;
+    width: 100px;
+    height: 90px;
+    top: 22px;
+    right: 15px;
+    border: 1px;
+    border-width: thick;
+    border-radius: 4px;
+    background-color: rgb(245, 245, 245);
+    outline: none;
+    color: rgb(170, 170, 170);
+}
+footer input {
+    position: absolute;
+    float: left;
+    height: 110px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    top: 10px;
+    left: 10px;
+    outline: none;
+}
